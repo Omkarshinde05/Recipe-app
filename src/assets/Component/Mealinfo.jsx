@@ -13,7 +13,7 @@ export default function Mealinfo() {
         )
         const jsondata = await response.json()
         setMealData(jsondata.meals[0]) // store first meal object
-        console.log(jsondata.meals[0])
+        // console.log(jsondata.meals[0])
       } catch (error) {
         console.error("Error fetching meal data:", error)
       }
