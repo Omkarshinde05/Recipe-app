@@ -1,6 +1,6 @@
  import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import Mainpage from "./Mainpage";
+
 
 
 export default function Navbar() {
